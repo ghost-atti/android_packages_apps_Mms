@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Message options - Add SMS to calendar -->
+    <string name="menu_add_to_calendar">일정에 추가</string>
+
+    <!-- QM - Dialog box buttons -->
+    <string name="button_close">닫기</string>
+    <string name="button_view">보기</string>
+    <string name="button_templates">템플릿</string>
+
+    <!-- QM - Hint text in message body field when keyboard is exposed -->
+    <string name="type_to_reply_text_enter_to_send">메시지 입력</string>
+
+    <!-- QM - Toast -->
+    <string name="toast_sending_message">메시지 전송중</string>
+
+    <!-- QM - Quick reply -->
+    <string name="qm_quick_reply">답장</string>
+    <string name="qm_mark_read">읽기</string>
+
+    <!-- QM - Counter separator -->
+    <string name="message_counter_separator">/</string>
+
+    <!-- NOTIFICATIONS -->
+    <!-- Privacy mode -->
+    <string name="pref_title_notification_privacy_mode_enabled">프라이버시 모드</string>
+    <string name="pref_summary_notification_privacy_mode_enabled">상태바에서 발신자와 내용을 숨기고 빠른 답장 비활성화</string>
+    <string name="notification_single_title_privacy_mode">새 메시지</string>
+    <string name="notification_single_text_privacy_mode">1개의 읽지 않은 메시지</string>
+    <string name="notification_multiple_title_privacy_mode">새 메시지</string>
+    <string name="notification_multiple_text_privacy_mode"><xliff:g id="number" example="3">%1$s</xliff:g>개의 읽지 않은 메시지</string>
+    <string name="notification_ticker_privacy_mode">새 메시지가 도착했습니다</string>
+
+    <!-- Vibrate pattern -->
+    <string name="pref_title_mms_notification_vibrate_pattern">진동 패턴</string>
+    <string name="pref_summary_mms_notification_vibrate_pattern">진동 패턴 변경</string>
+    <string name="pref_title_mms_notification_vibrate_custom">사용자 정의 진동 패턴</string>
+    <string name="pref_text_mms_notification_vibrate_custom">밀리세컨드 단위로 off/on 형식: off, on, off, on\u2026</string>
+
+    <!-- QUICKMESSAGE -->
+    <string name="pref_quickmessage">빠른 답장</string>
+
+    <!-- Use dark theme -->
+    <string name="pref_dark_theme_title">검은색 테마 사용</string>
+    <string name="pref_dark_theme_summary">선택하지 않았을경우 기본 흰색 테마 사용</string>
+
+    <!-- Show pop-up -->
+    <string name="pref_quickmessage_title">팝업창 띄우기</string>
+    <string name="pref_quickmessage_summary">메시지가 도착할 경우 팝업창 표시</string>
+
+    <!-- Wake and unlock -->
+    <string name="pref_wake_unlock_title">절전모드 해제 및 잠금 해제</string>
+    <string name="pref_wake_unlock_summary">메세지가 도착했을 때 절전모드 해제 및 잠금 해제 (비밀번호가 없는 잠금 화면에서만 적용)</string>
+
+    <!-- Close all messages -->
+    <string name="pref_close_all_title">모두 닫기</string>
+    <string name="pref_close_all_summary">닫기 버튼으로 모든 메시지 닫기</string>
+
+    <!-- SMS TEMPLATES -->
+    <string name="prefs_templates_settings">SMS 템플릿</string>
+
+    <!-- Manage SMS templates -->
+    <string name="pref_title_templates_manage">템플릿</string>
+    <string name="pref_summary_templates_manage">SMS 템플릿 관리</string>
+    <string name="template_explanation">템플릿을 입력하거나 수정하고 추가적으로 원할 경우 제스처를 그려주시길 바랍니다</string>
+    <string name="template_insert_hint">템플릿 입력</string>
+    <string name="template_empty_text">텍스트 필드는 비워 둘 수 없습니다</string>
+    <string name="template_save">저장</string>
+    <string name="template_ctx_menu_title">행동</string>
+    <string name="template_edit">수정</string>
+    <string name="template_delete">삭제</string>
+    <string name="template_list_title">템플릿</string>
+    <string name="template_new_title">새 템플릿</string>
+    <string name="template_insert">템플릿 삽입</string>
+    <string name="template_gesture_draw">아래 공간에 제스쳐 입력</string>
+    <string name="template_not_present_error">등록된 템플릿이 없습니다</string>
+    <string name="template_not_present_error_title">오류</string>
+    <string name="template_select">템플릿 선택</string>
+    <string name="template_confirm_dialog_title">삭제하시겠습니까?</string>
+    <string name="gestures_already_present">이미 다른 템플릿에 비슷한 제스처가 설정되어 있습니다</string>
+    <string name="select_template">템플릿 선택</string>
+
+    <!-- Show gesture trace -->
+    <string name="pref_title_templates_show_gesture">제스처</string>
+    <string name="pref_summary_templates_show_gesture">제스처 표시</string>
+
+    <!-- Gesture sensitivity -->
+    <string name="pref_title_template_gestures_sensitivity">제스처 민감도</string>
+
+    <!-- EXTRA SETTINGS -->
+    <string name="pref_extra_settings">기타 설정</string>
+
+    <!-- Strip unicode -->
+    <string name="pref_title_unicode_stripping">유니코드 제거</string>
+    <string name="pref_unicode_stripping_leave_intact">문자 그대로 유지</string>
+    <string name="pref_unicode_stripping_non_encodable">인코딩 할 수 없는 문자 제거</string>
+    <string name="pref_unicode_stripping_all">모든 유니코드 문자를 제거</string>
+
+    <!-- Enable emojis -->
+    <string name="pref_title_enable_emojis">이모티콘 지원</string>
+    <string name="pref_summary_enable_emojis">471개의 이모티콘 지원 활성화</string>
+    <string name="menu_insert_emoji">이모티콘 삽입</string>
+
+    <!-- Enable quick emojis -->
+    <string name="pref_title_enable_quick_emojis">빠른 이모티콘 버튼</string>
+    <string name="pref_summary_enable_quick_emojis">텍스트 입력 영역 옆에 버튼 표시</string>
+
+    <!-- Enable SoftBank emoji encoding -->
+    <string name="pref_title_enable_softbank_encoding">SoftBank 이모티콘</string>
+    <string name="pref_summary_enable_softbank_encoding">SoftBank 이모티콘 인코딩 사용</string>
+
+    <!-- Full timestamps -->
+    <string name="pref_title_mms_full_timestamp">전체 타임스탬프</string>
+    <string name="pref_summary_mms_full_timestamp">타임스탬프에 날짜 및 시간 표시</string>
+
+    <!-- Original timestamps -->
+    <string name="pref_title_mms_use_sent_timestamp">원본 타임스탬프</string>
+    <string name="pref_summary_mms_use_sent_timestamp">타임스탬프에 받은 날짜 대신 보낸 날짜 표시</string>
+
+    <!-- Soft keyboard type -->
+    <string name="pref_title_input_type">소프트 키보드 유형</string>
+    <string name="pref_keyboard_emoji">이모티콘 키 표시</string>
+    <string name="pref_keyboard_new_line">엔터 키 표시</string>
+    <string name="pref_keyboard_unknown">다시 선택하시길 바랍니다</string>
+
+    <!-- Settings item for boolean option for SMS Split Counter -->
+    <string name="pref_title_sms_split_counter">카운터 분리</string>
+    <!-- Settings item description for boolean SMS Split 160 characters setting -->
+    <string name="pref_summary_sms_split_counter">메시지에 카운터 추가 예시: (1/2)</string>
+
+    <!-- Insert contact information -->
+    <string name="menu_insert_contact_info">연락처 정보 삽입</string>
+    <string name="cannot_find_contact">선택한 연락처의 정보를 삽입 할 수 없습니다</string>
+    <string name="insert_contact_info_positive_button">삽입</string>
+
+    <!-- MMS push permission -->
+    <string name="label_mms_push">MMS 전송</string>
+    <string name="desc_mms_push">보낼 편지함에서 MMS를 네트워크로 전송</string>
+
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">블랙리스트</string>
+    <string name="blacklist_summary_disabled">사용 안함</string>
+    <string name="blacklist_summary">블랙리스트의 번호에서 오는 메시지 차단</string>
+
+    <!-- Blacklist notifications -->
+    <string name="blacklist_notification">%s 에서 온 메시지가 차단되었습니다</string>
+    <string name="blacklist_notification_private_number">발신자 정보가 없는 메시지가 차단되었습니다</string>
+    <string name="blacklist_notification_list_private">알 수 없는 번호</string>
+    <string name="blacklist_notification_unknown_number">알 수 없는 번호 %s 에서 온 메시지가 차단되었습니다</string>
+    <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g>개의 메시지가 차단되었습니다</string>
+    <string name="unblock_number">차단 해제</string>
+
+    <!-- Blacklist management -->
+    <string name="add_to_blacklist">블랙리스트에 추가</string>
+    <string name="add_to_blacklist_message">%s 에서 오는 메시지를 차단합니다</string>
+
+    <!-- Generic blacklist handling -->
+    <string name="alert_dialog_yes">예</string>
+    <string name="alert_dialog_no">아니오</string>
+
+    <!-- Toast when storage is full -->
+    <string name="storage_is_full">보관함 저장 공간이 부족합니다. 필요없는 메시지를 삭제해 주시길 바랍니다.</string>
+
+    <!-- Context menu item on an failed message for resending -->
+    <string name="menu_resend">재전송</string>
+
+    <!-- Multi recipients -->
+    <string name="select_recipients">받는사람 선택</string>
+    <string name="groups_header">그룹</string>
+    <string name="no_recipients">연락처가 없습니다</string>
+    <string name="no_recipients_mobile_only">연락처가 없습니다. \'휴대전화 번호만 표시\' 필터를 제거한 후 시도해 보십시오.</string>
+    <string name="menu_done">완료</string>
+    <string name="menu_mobile">휴대전화 번호만 표시</string>
+    <string name="menu_groups">그룹 표시</string>
+    <string name="fastscroll_index_groups">그룹</string> <!-- CHAR LIMIT=3 -->
+
+    <!-- Delay delivery -->
+    <string name="pref_title_send_delay">전송 딜레이</string>
+    <string name="send_delay_immediate">즉시 전송</string>
+    <string name="send_delay_3seconds">3초</string>
+    <string name="send_delay_5seconds">5초</string>
+    <string name="send_delay_10seconds">10초</string>
+    <string name="send_delay_20seconds">20초</string>
+    <string name="send_delay_30seconds">30초</string>
+    <string name="sent_countdown">메시지 전송 카운트다운</string>
+
+</resources>
